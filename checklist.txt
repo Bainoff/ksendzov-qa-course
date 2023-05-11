@@ -1,4 +1,5 @@
 id - 
 summary - 
-comment - 
+comment -
+environment -
 (short version of checklist)
