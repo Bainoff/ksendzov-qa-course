@@ -6,6 +6,6 @@ priority -
 severity - 
 title - 
 steps to reproduce  - 
-actual result - 
+expected2 result - 
 expected result - 
 assigned to - 
