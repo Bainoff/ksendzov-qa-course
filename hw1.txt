@@ -67,3 +67,4 @@ http://162.55.220.72:5005/terminal-hw-request
     mv 8.json ../a2
     ls -la
     :wq
+  execute$ sh script.bat
