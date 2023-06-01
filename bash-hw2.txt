@@ -109,7 +109,7 @@ grep -n second *
 grep -ni second *
 
 // 29) Найти строки в файлах где есть комбинация букв “second” во всех папках ниже уровнем
-grep -nr second */
+grep -nr second *
 
 // 30) Найти только путь и название файла в строках которых есть комбинация букв “second” в текущей папке
 grep -l second * | xargs realpath
