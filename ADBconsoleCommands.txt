@@ -1,0 +1,25 @@
+run windows shell in ADB folder
+under shell commands start with ".\adb"
+under cmd commands start with "adb"
+
+.\adb devices - list of devices
+.\adb install apkpath - install application
+
+.\adb shell 'pm list packages -f' - all installed applications
+.\adb shell 'pm list packages -f' | findstr /appname/ - installed application
+.\adb shell 'pm list packages -f | grep /appname/ - -//- -//- in bash
+
+.\adb logcat - all logs (ctrl+C to stop)
+.\adb logcat -d | findstr com./appname/ - particular app logs
+.\adb logcat -d | findstr com./appname/ > /filename.ext/ - write logs to file
+
+.\adb shell screencap /storage/emulated/0/DCIM/32.png - save screenshot on mobile
+.\adb pull /storage/emulated/0/DCIM/32.png 32.png copy file to pc
+.\adb push 32.png /storage/emulated/0/DCIM/32-copy.png copy file to mobile
+
+.\adb uninstall com.qrolic.reminderapp
+
+adb start-server
+adb kill-server
+adb connect
+adb shell screenrecord
